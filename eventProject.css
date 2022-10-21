@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  background-color: darkgrey;
+  background-image: url(/assets/background.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.card img {
+  width: 300px;
+  display: block;
+}
+
+h1 {
+  color: rgb(188, 196, 203);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card button {
+  margin-top: 10px;
+  height: 30px;
+}
+.book-now {
+  font-family: sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+  background-color: rgb(41, 43, 61);
+  color: rgb(128, 77, 80);
+  cursor: pointer;
+  font-weight: bold;
+  width: 120px;
+  margin-right: 3px;
+  margin-bottom: 12px;
+}
+.more-info {
+  font-family: sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+  background-color: rgb(41, 43, 61);
+  color: rgb(220, 231, 234);
+  cursor: pointer;
+  font-weight: bold;
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.card {
+  padding: 10px;
+  background-color: rgb(77, 73, 80);
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.price {
+  text-align: center;
+  color: rgb(52, 16, 18);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  color: rgb(223, 226, 228);
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.date {
+  text-align: center;
+  color: rgb(11, 12, 12);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.heading1 {
+  display: flex;
+  grid-template-columns: auto;
+  background-color: rgb(93, 27, 39);
+  padding: 10px;
+  justify-content: center;
+}
+
+.format {
+  margin: 8px;
+}
+
+.description {
+  margin: 3px;
+}
+
+img {
+  margin-bottom: 14px;
+}
+.description {
+  text-align: center;
+  color: rgb(11, 12, 12);
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.topsection {
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-btns {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
